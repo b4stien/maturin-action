@@ -705,7 +705,7 @@ async function innerMain(): Promise<void> {
       env.DEVELOPER_DIR = '/Applications/Xcode.app/Contents/Developer'
       env.SDKROOT =
         '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'
-      env.MACOSX_DEPLOYMENT_TARGET = '10.9'
+      env.MACOSX_DEPLOYMENT_TARGET = '11.0'
       core.endGroup()
     }
 
